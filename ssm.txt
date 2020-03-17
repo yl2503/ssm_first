@@ -1,0 +1,5 @@
+搭建步骤：
+1.获取依赖的jar包：spring、springMvc、mybatis、数据库、jstl
+2.配置web.xml (1)ContextLoaderListener (2)DispatcherServlet
+3.配置spring-mvc.xml (1)扫描控制层的包 (2)配置注解驱动 (3)配置视图解析器
+4.配置spring.xml (1)扫描非controller包 (2)配置数据源 (3)配置事务管理器 (4)开启注解驱动 (5)配置mybatis (6)扫描mapper接口
